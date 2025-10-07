@@ -57,45 +57,20 @@
       box-shadow:0 8px 22px rgba(124,58,237,.35); cursor:pointer;
     }
     .btn:hover{filter:brightness(1.08)}
-    .hero{
-      padding:72px 0 36px;
-    }
-    .hero h1{
-      font-size:clamp(28px, 5vw, 46px);
-      line-height:1.15; margin:0 0 10px;
-      letter-spacing:.3px;
-    }
-    .hero p{font-size:clamp(16px, 2.2vw, 20px); color:var(--muted); margin:0 0 18px}
+    .hero{ padding:72px 0 36px; }
+    .hero h1{ font-size:clamp(28px, 5vw, 46px); line-height:1.15; margin:0 0 10px; letter-spacing:.3px; }
+    .hero p{ font-size:clamp(16px, 2.2vw, 20px); color:var(--muted); margin:0 0 18px }
     .hero .badges{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px}
-    .badge{
-      border:1px solid rgba(167,139,250,.35);
-      color:var(--accent-2); padding:6px 10px; border-radius:999px; font-size:13px;
-    }
-    .grid{
-      display:grid; gap:18px; grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
-    }
+    .badge{ border:1px solid rgba(167,139,250,.35); color:var(--accent-2); padding:6px 10px; border-radius:999px; font-size:13px; }
+    .grid{ display:grid; gap:18px; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); }
     section{padding:28px 0}
-    .card{
-      background:linear-gradient(180deg, rgba(167,139,250,.06), rgba(124,58,237,.03) 40%, rgba(2,6,23,.6));
-      border:1px solid rgba(148,163,184,.14);
-      border-radius:18px; padding:18px 18px 16px;
-    }
+    .card{ background:linear-gradient(180deg, rgba(167,139,250,.06), rgba(124,58,237,.03) 40%, rgba(2,6,23,.6)); border:1px solid rgba(148,163,184,.14); border-radius:18px; padding:18px 18px 16px; }
     h2{font-size:clamp(22px, 3.2vw, 28px); margin:0 0 10px}
     h3{font-size:20px; margin:8px 0}
     ul{margin:0; padding-inline-start:18px}
-    .pill{
-      display:inline-block; padding:6px 10px; border-radius:999px; background:rgba(16,185,129,.12); color:#c8ffe4; font-size:13px; border:1px solid rgba(16,185,129,.25);
-    }
-    footer{
-      border-top:1px solid rgba(148,163,184,.15);
-      color:var(--muted);
-      padding:24px 0 48px; margin-top:22px;
-    }
-    .cta{
-      text-align:center; padding:26px; border-radius:18px; margin-top:10px;
-      background:linear-gradient(180deg, rgba(16,185,129,.08), rgba(16,185,129,.05));
-      border:1px solid rgba(16,185,129,.25);
-    }
+    .pill{ display:inline-block; padding:6px 10px; border-radius:999px; background:rgba(16,185,129,.12); color:#c8ffe4; font-size:13px; border:1px solid rgba(16,185,129,.25); }
+    footer{ border-top:1px solid rgba(148,163,184,.15); color:var(--muted); padding:24px 0 48px; margin-top:22px; }
+    .cta{ text-align:center; padding:26px; border-radius:18px; margin-top:10px; background:linear-gradient(180deg, rgba(16,185,129,.08), rgba(16,185,129,.05)); border:1px solid rgba(16,185,129,.25); }
     .faq dt{font-weight:700; margin-top:10px}
     .faq dd{margin:0 0 8px; color:var(--muted)}
     .tiny{font-size:12px; color:var(--muted)}
@@ -149,6 +124,7 @@
       <article class="card">
         <h2>למי זה מתאים?</h2>
         <ul>
+          <li>יכולות אנליטיות גבוהות לצד כישורים חברתיים מעולים.</li>
           <li>מצטיינים/ות במדעים והנדסה, בעלי חשיבה עצמאית ויצירתית.</li>
           <li>מסוגלות/ות לעבודה אינטנסיבית לאורך זמן ובהובלת צוותים.</li>
           <li>הרגלי למידה גבוהים, משמעת עצמית ויכולת עמידה בלחצים.</li>
@@ -163,7 +139,7 @@
           הקבלה לפסגות <b>תחרותית במיוחד</b>. תהליך המיון כולל מספר שלבים מצטברים שמטרתם להבטיח התאמה יוצאת דופן —
           ידע מדעי, יכולת פתרון בעיות, עבודת צוות, עמידות, אחריות ויכולות מנהיגות.
         </p>
-        <h3>שלבי מיון</h3>
+        <h3>שלבי המיון</h3>
         <ul>
           <li>מבחני חשיבה מתקדמים במתמטיקה, פיזיקה ואלגוריתמיקה.</li>
           <li>משימות אישיות וצוותיות תחת אילוצי זמן ומשאבים.</li>
@@ -171,7 +147,7 @@
           <li>בדיקות התאמה ביטחונית ומבחני אמינות.</li>
           <li>ועדת קבלה בכירה — הערכה הוליסטית של המסוגלות והפוטנציאל.</li>
         </ul>
-        <p class="tiny">* התהליך עשוי להשתנות מעת לעת; המידע כאן כללי ולא-רשמי.</p>
+        <p class="tiny">* התהליך עשוי להשתנות מעת לעת; המידע כאן כללי ולא‑רשמי.</p>
       </article>
     </section>
 
@@ -189,11 +165,22 @@
 
       <article class="card">
         <h2>אופי ההכשרה</h2>
+        <p>
+          המסלול בפסגות כולל לימודי <b>תואר בהנדסת חשמל</b> ותואר נוסף ב<b>פיזיקה</b>, בנוסף להכשרות, סדרות, "פסגותיקס" וימי עיון שמועברים על‑ידי בוגרי המסלול המשרתים בכל רחבי צה"ל ומשרד הביטחון.
+        </p>
         <ul>
           <li>לימוד מואץ של תשתיות מדעיות והנדסיות חיוניות.</li>
           <li>סדנאות פתרון בעיות וחשיבה מערכתית.</li>
           <li>חניכה על ידי חוקרים/מפתחים בכירים במפא״ת ובגופים שותפים.</li>
           <li>פרויקטים מעשיים עם תוצרים מבצעיים.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>הטבות ותמיכה לחניכים</h2>
+        <ul>
+          <li>אופציה למגורים במעונות האוניברסיטה.</li>
+          <li>מענקי עידוד ממפא״ת וגם מעתודה אקדמית, בסך <b>עשרות אלפי שקלים בשנה</b> <span class="tiny">(בכפוף להנחיות וגובה עדכני של הגופים המממנים)</span>.</li>
         </ul>
       </article>
 
@@ -261,4 +248,3 @@
   </main>
 </body>
 </html>
-
